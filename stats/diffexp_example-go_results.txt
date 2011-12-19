@@ -11,7 +11,7 @@ Loading required package: GO.db
 Loading required package: AnnotationDbi
 Loading required package: DBI
 Loading required package: SparseM
-Package SparseM (0.80) loaded.  
+Package SparseM (0.80) loaded.
 	   To cite, see citation("SparseM")
 
 
@@ -20,13 +20,13 @@ Attaching package: 'SparseM'
 
 	The following object(s) are masked from package:stats :
 
-	 model.response 
+	 model.response
 
 
 	The following object(s) are masked from package:base :
 
 	 backsolve,
-	 chol 
+	 chol
 
 
 groupGOTerms: 	GOBPTerm, GOMFTerm, GOCCTerm environments built.
@@ -37,11 +37,11 @@ Build GO DAG topology ..........	( 7 GO terms and 6 relations. )
 
 Annotating nodes ...............	( 4 genes annotated to the GO terms. )
 
-			 -- Classic Algorithm -- 
+			 -- Classic Algorithm --
 
 		 the algorithm is scoring 6 nontrivial nodes
-		 parameters: 
-			 test statistic:  fisher 
+		 parameters:
+			 test statistic:  fisher
        GO.ID                                        Term Annotated Significant
 1 GO:0042578         phosphoric ester hydrolase activity         2           2
 2 GO:0016791                        phosphatase activity         1           1

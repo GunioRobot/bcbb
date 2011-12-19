@@ -1,7 +1,7 @@
 # Automate installation of useful packages when upgrading R.
 # This contains everything we normally want with R so we can
 # make updates smoother.
-# 
+#
 # Run with:
 #   Rscript install_packages.R
 
@@ -28,7 +28,7 @@ std.installer = repo.installer(cran.repos, install.packages)
 lapply(std.pkgs, std.installer)
 # bioconductor packages
 bioc.pkgs <- c("Biostrings", "ShortRead", "BSgenome", "edgeR", "GEOquery",
-	       "GOstats", "rtracklayer", "biomaRt", "Rsamtools", "PICS", "MotIV", 
+	       "GOstats", "rtracklayer", "biomaRt", "Rsamtools", "PICS", "MotIV",
 	       "rGADEM", "GO.db", "KEGG.db", "org.Hs.eg.db", "org.Mm.eg.db",
 	       "affy", "affydata", "affyio", "celeganscdf", "hgu95av2cdf",
 	       "preprocessCore", "ChIPpeakAnno")

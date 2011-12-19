@@ -32,13 +32,13 @@ mapped to RDF triples as:
 <br/>
 
 <p>
-Thus, a nice place to look for ontologies is in standards intended for RDF. 
+Thus, a nice place to look for ontologies is in standards intended for RDF.
 Greg Tyrelle thought this same way a while ago and came up with
 a XSLT to <a href="http://wiki.nodalpoint.org/semweb_hacks">transform GenBank
 XML to RDF</a>, using primarily the <a href="http://www.dublincore.org/">Dublin Core</a>
 vocabulary. On the biology side, the <a href="http://www.sequenceontology.org/">Sequence Ontology project</a>
 provides an ontology meant for describing biological sequences. This includes
-a <a href="http://www.sequenceontology.org/so_mappings.shtml">mapping</a> 
+a <a href="http://www.sequenceontology.org/so_mappings.shtml">mapping</a>
 to GenBank feature table names.
 </p>
 
@@ -53,7 +53,7 @@ covers almost all of the header and feature keys, and more than half of the qual
 href="http://github.com/chapmanb/bcbb/raw/master/biosql_ontologies/genbank_ontology_map.txt">
 Tab delimited mapping file</a></li>
 
-<li>All of the python code that does the mapping and pulls 
+<li>All of the python code that does the mapping and pulls
 information from associated files is available: <a
 href="http://github.com/chapmanb/bcbb/tree/master">github repository</a>.
 </li>
@@ -88,7 +88,7 @@ Some other useful links for biological ontology mapping:
 
 <ul>
 <li> <a href="http://www.gopubmed.org">GoPubMed</a>, which uses the Dublin
-Core and <a href="http://prismstandard.org">Prism Standard</a> vocabularies: 
+Core and <a href="http://prismstandard.org">Prism Standard</a> vocabularies:
 <a href="http://www.gopubmed.org/GoMeshPubMed/gomeshpubmed/Search/RDF?q=18463287&type=RdfExportAll">Example record</a>
 </li>
 

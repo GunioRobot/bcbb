@@ -1,7 +1,7 @@
 -- MySQL database definitions for authorization.
 -- This provides a simple system of users and groups that organize a set
 -- of users. Group associations are then associated with a permission set
--- which can have one or more groups. 
+-- which can have one or more groups.
 --
 -- This permission mechanism provides extra flexibility and prevents the
 -- generation of groups just to handle a permission issue. For instance,
@@ -10,7 +10,7 @@
 --
 -- These permissions can be checked either in code or via explicit database
 -- associations.
--- 
+--
 -- This is based on the TurboGears python authorization framework:
 -- http://turbogears.org/2.0/docs/main/Extensions/Authorization/index.html
 
